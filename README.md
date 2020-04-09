@@ -2,7 +2,7 @@
 Gmod Entity Spawner by Zaktak
 
 ### A Simple Addon that lets you set specific entities to specific models.
-**Therefore can be used to allow jobs(darkRP jobs) to spawn entites.**
+**Therefore can be used to allow jobs(darkRP jobs) to spawn entities.**
 > *Why use this instead of entities.lua? - Well cause its simpler, doesn't
 spawn kill you and isn't buggy as much.*
 
