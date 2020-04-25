@@ -1,0 +1,11 @@
+{
+	"title"		:	"Entity Spawner",
+	"type"		:	"tool",
+	"tags"		:	[ "roleplay", "fun" ],
+	"ignore"	:
+	[
+		"*.psd",
+		"*.vcproj",
+		"*.svn*"
+	]
+}
