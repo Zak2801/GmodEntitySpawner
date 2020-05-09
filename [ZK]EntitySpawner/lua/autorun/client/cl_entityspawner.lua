@@ -54,7 +54,7 @@ function OpenDerma(ply)
 	DermaButton:SetColor( ZKEntSpawn.config.btnC )
 	DermaButton.DoClick = function()
 		if (curEnts >= ZKEntSpawn.config.entsAllowed) then return end
-		local md = mdlAllowedOne[ply:GetModel()]
+		local md = ZKEntSpawn.config.mdlAllowedOne[ply:GetModel()]
 		if not md then return end
 		local message = ZKEntSpawn.config.mdl_ent_one
 		net.Start("sendEnt")
@@ -75,7 +75,7 @@ function OpenDerma(ply)
 	DermaButton:SetColor( ZKEntSpawn.config.btnC )
 	DermaButton.DoClick = function()
 		if (curEnts >= ZKEntSpawn.config.entsAllowed) then return end
-		local md = mdlAllowedTwo[ply:GetModel()]
+		local md = ZKEntSpawn.config.mdlAllowedTwo[ply:GetModel()]
 		if not md then return end
 		local message = ZKEntSpawn.config.mdl_ent_two
 		net.Start("sendEnt")
@@ -95,7 +95,7 @@ function OpenDerma(ply)
 	DermaButton:SetColor( ZKEntSpawn.config.btnC )
 	DermaButton.DoClick = function()
 		if (curEnts >= ZKEntSpawn.config.entsAllowed) then return end
-		local md = mdlAllowedThree[ply:GetModel()]
+		local md = ZKEntSpawn.config.mdlAllowedThree[ply:GetModel()]
 		if not md then return end
 		local message = ZKEntSpawn.config.mdl_ent_three
 		net.Start("sendEnt")
@@ -115,7 +115,7 @@ function OpenDerma(ply)
 	DermaButton:SetColor( ZKEntSpawn.config.btnC )
 	DermaButton.DoClick = function()
 		if (curEnts >= ZKEntSpawn.config.entsAllowed) then return end
-		local md = mdlAllowedFour[ply:GetModel()]
+		local md = ZKEntSpawn.config.mdlAllowedFour[ply:GetModel()]
 		if not md then return end
 		local message = ZKEntSpawn.config.mdl_ent_four
 		net.Start("sendEnt")
@@ -135,7 +135,7 @@ function OpenDerma(ply)
 	DermaButton:SetColor( ZKEntSpawn.config.btnC )
 	DermaButton.DoClick = function()
 		if (curEnts >= ZKEntSpawn.config.entsAllowed) then return end
-		local md = mdlAllowedFive[ply:GetModel()]
+		local md = ZKEntSpawn.config.mdlAllowedFive[ply:GetModel()]
 		if not md then return end
 		local message = ZKEntSpawn.config.mdl_ent_five
 		net.Start("sendEnt")
@@ -155,7 +155,7 @@ function OpenDerma(ply)
 	DermaButton:SetColor( ZKEntSpawn.config.btnC )
 	DermaButton.DoClick = function()
 	if (curEnts >= ZKEntSpawn.config.entsAllowed) then return end
-		local md = mdlAllowedSix[ply:GetModel()]
+		local md = ZKEntSpawn.config.mdlAllowedSix[ply:GetModel()]
 		if not md then return end
 		local message = ZKEntSpawn.config.mdl_ent_six
 		net.Start("sendEnt")
@@ -175,7 +175,7 @@ function OpenDerma(ply)
 	DermaButton:SetColor( ZKEntSpawn.config.btnC )
 	DermaButton.DoClick = function()
 		if (curEnts >= ZKEntSpawn.config.entsAllowed) then return end
-		local md = mdlAllowedSeven[ply:GetModel()]
+		local md = ZKEntSpawn.config.mdlAllowedSeven[ply:GetModel()]
 		if not md then return end
 		local message = ZKEntSpawn.config.mdl_ent_seven
 		net.Start("sendEnt")
@@ -195,7 +195,7 @@ function OpenDerma(ply)
 	DermaButton:SetColor( ZKEntSpawn.config.btnC )
 	DermaButton.DoClick = function()
 		if (curEnts >= ZKEntSpawn.config.entsAllowed) then return end
-		local md = mdlAllowedSix[ply:GetModel()]
+		local md = ZKEntSpawn.config.mdlAllowedSix[ply:GetModel()]
 		if not md then return end
 		local message = ZKEntSpawn.config.mdl_ent_eight
 		net.Start("sendEnt")
