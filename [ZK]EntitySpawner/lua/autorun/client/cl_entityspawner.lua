@@ -51,7 +51,7 @@ function OpenDerma(ply)
 	DermaButton:SetText( ZKEntSpawn.config.one_txt )
 	DermaButton:SetPos( 50, 75 )
 	DermaButton:SetSize( 150, 20 )
-	DermaButton:SetColor( btnC )
+	DermaButton:SetColor( ZKEntSpawn.config.btnC )
 	DermaButton.DoClick = function()
 		if (curEnts >= ZKEntSpawn.config.entsAllowed) then return end
 		local md = mdlAllowedOne[ply:GetModel()]
