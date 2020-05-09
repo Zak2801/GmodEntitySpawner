@@ -48,7 +48,7 @@ function OpenDerma(ply)
 	----------------------------]]
 
 	local DermaButton = vgui.Create( "DColorButton", frame )
-	DermaButton:SetText( one_txt )
+	DermaButton:SetText( ZKEntSpawn.config.one_txt )
 	DermaButton:SetPos( 50, 75 )
 	DermaButton:SetSize( 150, 20 )
 	DermaButton:SetColor( btnC )
@@ -69,10 +69,10 @@ function OpenDerma(ply)
 	----------------------------]]
 
 	local DermaButton = vgui.Create( "DColorButton", frame )
-	DermaButton:SetText( two_txt )
+	DermaButton:SetText( ZKEntSpawn.config.two_txt )
 	DermaButton:SetPos( 50, 175 )
 	DermaButton:SetSize( 150, 20 )
-	DermaButton:SetColor( btnC )
+	DermaButton:SetColor( ZKEntSpawn.config.btnC )
 	DermaButton.DoClick = function()
 		if (curEnts >= ZKEntSpawn.config.entsAllowed) then return end
 		local md = mdlAllowedTwo[ply:GetModel()]
@@ -89,10 +89,10 @@ function OpenDerma(ply)
 	----------------------------]]
 
 	local DermaButton = vgui.Create( "DColorButton", frame )
-	DermaButton:SetText( three_txt )
+	DermaButton:SetText( ZKEntSpawn.config.three_txt )
 	DermaButton:SetPos( 50, 275 )
 	DermaButton:SetSize( 150, 20 )
-	DermaButton:SetColor( btnC )
+	DermaButton:SetColor( ZKEntSpawn.config.btnC )
 	DermaButton.DoClick = function()
 		if (curEnts >= ZKEntSpawn.config.entsAllowed) then return end
 		local md = mdlAllowedThree[ply:GetModel()]
@@ -109,10 +109,10 @@ function OpenDerma(ply)
 	----------------------------]]
 
 	local DermaButton = vgui.Create( "DColorButton", frame )
-	DermaButton:SetText( four_txt )
+	DermaButton:SetText( ZKEntSpawn.config.four_txt )
 	DermaButton:SetPos( 50, 375 )
 	DermaButton:SetSize( 150, 20 )
-	DermaButton:SetColor( btnC )
+	DermaButton:SetColor( ZKEntSpawn.config.btnC )
 	DermaButton.DoClick = function()
 		if (curEnts >= ZKEntSpawn.config.entsAllowed) then return end
 		local md = mdlAllowedFour[ply:GetModel()]
@@ -129,10 +129,10 @@ function OpenDerma(ply)
 	----------------------------]]
 
 	local DermaButton = vgui.Create( "DColorButton", frame )
-	DermaButton:SetText( five_txt )
+	DermaButton:SetText( ZKEntSpawn.config.five_txt )
 	DermaButton:SetPos( 300, 75 )
 	DermaButton:SetSize( 150, 20 )
-	DermaButton:SetColor( btnC )
+	DermaButton:SetColor( ZKEntSpawn.config.btnC )
 	DermaButton.DoClick = function()
 		if (curEnts >= ZKEntSpawn.config.entsAllowed) then return end
 		local md = mdlAllowedFive[ply:GetModel()]
@@ -149,10 +149,10 @@ function OpenDerma(ply)
 	----------------------------]]
 
 	local DermaButton = vgui.Create( "DColorButton", frame )
-	DermaButton:SetText( six_txt )
+	DermaButton:SetText( ZKEntSpawn.config.six_txt )
 	DermaButton:SetPos( 300, 175 )
 	DermaButton:SetSize( 150, 20 )
-	DermaButton:SetColor( btnC )
+	DermaButton:SetColor( ZKEntSpawn.config.btnC )
 	DermaButton.DoClick = function()
 	if (curEnts >= ZKEntSpawn.config.entsAllowed) then return end
 		local md = mdlAllowedSix[ply:GetModel()]
@@ -169,10 +169,10 @@ function OpenDerma(ply)
 	----------------------------]]
 
 	local DermaButton = vgui.Create( "DColorButton", frame )
-	DermaButton:SetText( seven_txt )
+	DermaButton:SetText( ZKEntSpawn.config.seven_txt )
 	DermaButton:SetPos( 300, 275 )
 	DermaButton:SetSize( 150, 20 )
-	DermaButton:SetColor( btnC )
+	DermaButton:SetColor( ZKEntSpawn.config.btnC )
 	DermaButton.DoClick = function()
 		if (curEnts >= ZKEntSpawn.config.entsAllowed) then return end
 		local md = mdlAllowedSeven[ply:GetModel()]
@@ -189,10 +189,10 @@ function OpenDerma(ply)
 	----------------------------]]
 
 	local DermaButton = vgui.Create( "DColorButton", frame )
-	DermaButton:SetText( eight_txt )
+	DermaButton:SetText( ZKEntSpawn.config.eight_txt )
 	DermaButton:SetPos( 300, 375 )
 	DermaButton:SetSize( 150, 20 )
-	DermaButton:SetColor( btnC )
+	DermaButton:SetColor( ZKEntSpawn.config.btnC )
 	DermaButton.DoClick = function()
 		if (curEnts >= ZKEntSpawn.config.entsAllowed) then return end
 		local md = mdlAllowedSix[ply:GetModel()]
